@@ -38,7 +38,7 @@ defmodule Faustixer.HackerRank do
   def get_range() do
     get_rank()
     |> get_body
-    |> Enum.take(10)
+    |> Enum.take(5)
     |> Enum.map(fn i -> get_history(i) end)
   end
 
